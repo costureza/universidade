@@ -1,0 +1,16 @@
+.cta{
+    margin: 6rem auto;
+    width: 80%;
+    background-image:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url(../img/image04.png) ;
+    background-position: center;
+    background-size: cover;
+    border-radius: .5rem;
+    text-align: center;
+    padding: 6rem 0;
+}
+.cta h1{
+    color: var(--corletra);
+    font-size: 4rem;
+    margin-bottom: 2.5rem;
+    padding: 0;
+}

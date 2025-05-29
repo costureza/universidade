@@ -1,0 +1,27 @@
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 1.8rem 0;
+    border-top: var(--border);
+}
+.footer h4{
+    margin-bottom: 1.5rem;
+    margin-top: 1.2rem;
+    font-weight: 600;
+    font-size: 3rem;
+    color: var(--cinza);
+}
+.footer p{
+    font-size: 2rem;
+    color: var(--corleve);
+}
+.footer p a{
+    color: var(--botao);
+}
+.footer .icons i{
+    color: var(--botao);
+    margin: 0 .8rem;
+    cursor: pointer;
+    padding: 1.1rem 0;
+    font-size: 2rem;
+}

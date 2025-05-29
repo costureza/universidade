@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital,wght@0,300..700;1,300..700&display=swap');
+:root{
+    --corletra:#FFFFFF;
+    --botao:#3289BB;
+    --cinza:#1f1e1ef8;
+    --corleve:#777;
+    --bege:#fff3f3;
+    --border: .1rem solid rgba(0,0,0,.1);
+    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    list-style: none;
+    font-family: "Inclusive Sans", sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+.btn{
+    display: inline-block;
+    color: var(--corletra);
+    border: 1px solid var(--corletra);
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.btn:hover{
+    border: 1px solid var(--botao);
+    background: var(--botao);
+    transition: 1s;
+}
+.blue-btn{
+    border: 1px solid var(--botao) ;
+    background: transparent;
+    color: var(--botao);
+}
+.blue-btn:hover{
+    color: var(--corletra);
+}
